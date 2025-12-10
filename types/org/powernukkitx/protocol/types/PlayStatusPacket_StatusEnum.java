@@ -1,0 +1,31 @@
+package org.powernukkitx.protocol.types;
+
+public enum PlayStatusPacket_StatusEnum {
+  LOGINSUCCESS,
+
+  LOGINFAILED_CLIENTOLD,
+
+  LOGINFAILED_SERVEROLD,
+
+  PLAYERSPAWN,
+
+  LOGINFAILED_INVALIDTENANT,
+
+  LOGINFAILED_EDITIONMISMATCHEDUTOVANILLA,
+
+  LOGINFAILED_EDITIONMISMATCHVANILLATOEDU,
+
+  LOGINFAILED_SERVERFULLSUBCLIENT,
+
+  LOGINFAILED_EDITORMISMATCHEDITORTOVANILLA,
+
+  LOGINFAILED_EDITORMISMATCHVANILLATOEDITOR;
+
+  public static PlayStatusPacket_StatusEnum fromByte(int b) {
+    return values()[b];
+  }
+
+  public int toByte() {
+    return this.ordinal();
+  }
+}
