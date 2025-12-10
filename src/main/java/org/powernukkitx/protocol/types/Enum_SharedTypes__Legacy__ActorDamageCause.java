@@ -1,0 +1,73 @@
+package org.powernukkitx.protocol.types;
+
+public enum Enum_SharedTypes__Legacy__ActorDamageCause {
+  OVERRIDE,
+
+  CONTACT,
+
+  ENTITYATTACK,
+
+  PROJECTILE,
+
+  SUFFOCATION,
+
+  FALL,
+
+  FIRE,
+
+  FIRETICK,
+
+  LAVA,
+
+  DROWNING,
+
+  BLOCKEXPLOSION,
+
+  ENTITYEXPLOSION,
+
+  VOID,
+
+  SELFDESTRUCT,
+
+  MAGIC,
+
+  WITHER,
+
+  STARVE,
+
+  ANVIL,
+
+  THORNS,
+
+  FALLINGBLOCK,
+
+  PISTON,
+
+  FLYINTOWALL,
+
+  MAGMA,
+
+  FIREWORKS,
+
+  LIGHTNING,
+
+  CHARGING,
+
+  TEMPERATURE,
+
+  FREEZING,
+
+  STALACTITE,
+
+  STALAGMITE,
+
+  RAMATTACK,
+
+  SONICBOOM,
+
+  CAMPFIRE,
+
+  SOULCAMPFIRE,
+
+  MACESMASH
+}
